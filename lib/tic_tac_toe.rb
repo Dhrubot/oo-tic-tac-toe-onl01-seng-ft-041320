@@ -97,6 +97,6 @@ class TicTacToe
   
   def play 
     turn until over?
-    won? ? puts "Congratulations!"
+    won? ? puts "Congratulations #{winner}!" : puts "Sorry! The game ended in a draw!"
   end
 end
