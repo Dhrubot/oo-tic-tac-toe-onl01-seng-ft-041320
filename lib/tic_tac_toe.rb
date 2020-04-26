@@ -34,4 +34,8 @@ class TicTacToe
   def position_taken?(position)
     !(@board[position].empty? || @board[position] == " ")
   end
+  
+  def valid_move?(position)
+    
+  end
 end
