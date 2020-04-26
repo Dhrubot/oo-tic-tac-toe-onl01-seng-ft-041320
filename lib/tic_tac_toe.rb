@@ -52,6 +52,6 @@ class TicTacToe
   end
   
   def turn
-    puts "Please type in "
+    puts "Please type in a number between 1 to 9 where you would like your move to be"
   end
 end
