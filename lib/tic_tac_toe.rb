@@ -52,6 +52,6 @@ class TicTacToe
   end
   
   def turn
-    
+    puts "Please type in "
   end
 end
