@@ -42,4 +42,9 @@ class TicTacToe
       return false 
     end
   end
+  
+  def turn_count
+    count = 0 
+    
+  end
 end
