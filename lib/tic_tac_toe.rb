@@ -65,7 +65,9 @@ class TicTacToe
   end
   
   def won?
-    
+    @board.each do |rows| 
+      if WIN_COMBINATIONS.include?(rows)
+        return 
   end
   
 end
