@@ -1,7 +1,8 @@
 class TicTacToe
   attr_accessor :board
   
-  WIN_COMBINATION = []
+  WIN_COMBINATION = [[0, 1, 2]
+    ]
   def initialize
     @board = Array.new(9, " ")
   end
