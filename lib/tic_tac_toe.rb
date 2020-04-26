@@ -99,5 +99,8 @@ class TicTacToe
     until over?
       turn
     end
+    
+    if won? 
+      put
   end
 end
