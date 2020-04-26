@@ -32,6 +32,6 @@ class TicTacToe
   end
   
   def position_taken?(position)
-    !(@board[position].nil? || @board[position] == " ")
+    !(@board[position].empty? || @board[position] == " ")
   end
 end
