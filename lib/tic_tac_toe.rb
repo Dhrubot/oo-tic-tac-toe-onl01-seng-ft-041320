@@ -1,5 +1,5 @@
 class TicTacToe
-  attr_accessor :board
+  attr_reader :board
   
   WIN_COMBINATIONS = [
     [0, 1, 2],
@@ -27,7 +27,7 @@ class TicTacToe
     user_input.to_i - 1
   end
   
-  def move(position, token)
+  def move(position, token="X")
     
   end
 end
